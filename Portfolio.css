@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    height: 8%;
+    width: 100%;
+    background-image: linear-gradient(to right, white, rgba(3, 3, 66, 0.692), rgb(5, 5, 51));
+}
+
+
+.navbar > img{
+    height: 7%;
+    position: absolute;
+    left: 0px;
+    float: left;
+
+}
+.navbar > h1{
+    color:  rgb(5, 5, 51);
+    padding-left: 60px;
+    font-family: "gabriola";
+    font-weight: 800;
+    padding-top: 10px;
+    float: left;
+}
+
+.navbar > a{
+    display: flex;
+    float: right;
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bolder;
+    color: whitesmoke;
+    margin-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 27px;
+    box-shadow: 2px 2px 2px whitesmoke ;
+    
+}
+a:hover{
+    color: rgba(219, 72, 72, 0.788);
+    box-shadow: 0px 0px 2px whitesmoke inset ;
+     padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+a:hover::after{
+    color: rgba(219, 72, 72, 0.788);
+    box-shadow: 0px 0px 2px whitesmoke inset ;
+     padding-top: 20px;
+
+}
+
+section{
+    width: 100%;
+    height: 90%;
+    
+}
+.main_section{
+    width: 100%;
+    height: 95%;
+
+}
+
+.main_section > img{
+    width: 100%;
+    height: 92%;
+    position: absolute;
+    z-index: -1;
+
+}
+.main_section > .write_container{
+    z-index: 0;
+    float: left;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.main_section > .write_container >p{
+    color: white;
+    font-family: "gabriola";
+    font-weight: 400;
+
+}
+.main_section > .write_container >h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+
+}
+.main_section > .write_container >h3{
+    color: white;
+    font-family: "gabriola";
+    font-weight: 800;
+    font-size: 30px;
+
+}
+.main_section > .write_container >h4{
+    color: white;
+    font-family: "gabriola";
+    font-weight: 500;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+.main_section > .write_container >button{
+    width: 100px;
+    height: 30px;
+    color: whitesmoke;
+    background-color: rgb(33, 33, 92) ;
+    font-family: monospace;
+    font-weight: 600;
+    border: 0px solid transparent;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-radius: 2px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+.main_section > .write_container > button:hover{
+     color: rgb(8, 8, 61);
+     color: whitesmoke;
+     border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+     border-radius: 5%;
+     background-color: transparent;
+     box-shadow: 1px 1px 2px 1px  whitesmoke inset ;
+}
+
+.photo > img {
+    float: right;
+    height: 92%;
+    width: 49.8%;
+  
+}
+
