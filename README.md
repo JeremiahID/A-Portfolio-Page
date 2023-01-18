@@ -1,2 +1,2 @@
 # A-Portfolio-Page
-My first portfolio page..!
+This repositopry contains series of portfolio pages created with HTML & CSS.
